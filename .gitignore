@@ -1,0 +1,77 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+
+# Build directories
+build/
+dist/
+.build/
+obj/
+
+# Dependency directories
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.sublime-project
+*.sublime-workspace
+
+# Kernel build files
+kernel/.config
+kernel/System.map
+kernel/vmlinuz
+kernel/modules/
+kernel/arch/*/boot/
+
+# ISO and image files
+*.iso
+*.img
+*.bin
+
+# Log files
+*.log
+*.log.*
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+
+# OS-specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+
+# Documentation build
+docs/_build/
+
+# Local configuration
+*.local
+.env
+.env.local
